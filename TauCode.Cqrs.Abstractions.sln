@@ -1,14 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30523.141
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{383CCFE7-D4F7-4909-ADE4-86C2B91DF379}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{08611FA9-33A4-42C7-94F5-E0C7C974672C}"
 	ProjectSection(SolutionItems) = preProject
 		build\azure-pipelines-dev.yml = build\azure-pipelines-dev.yml
-		build\azure-pipelines.yml = build\azure-pipelines.yml
+		build\azure-pipelines-main.yml = build\azure-pipelines-main.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{B1EF8DCE-7505-4B10-8A10-4594D79A93D8}"
@@ -26,7 +26,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6B639890-A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.Cqrs.Abstractions", "src\TauCode.Cqrs.Abstractions\TauCode.Cqrs.Abstractions.csproj", "{05053A67-B056-4137-A971-A49104FB364A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.Cqrs.Abstractions.Tests", "test\TauCode.Cqrs.Abstractions.Tests\TauCode.Cqrs.Abstractions.Tests.csproj", "{BA966A11-72F5-4EDA-A429-6743AD75A56D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.Cqrs.Abstractions.Tests", "test\TauCode.Cqrs.Abstractions.Tests\TauCode.Cqrs.Abstractions.Tests.csproj", "{BA966A11-72F5-4EDA-A429-6743AD75A56D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
