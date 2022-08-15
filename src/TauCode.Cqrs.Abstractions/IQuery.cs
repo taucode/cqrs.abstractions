@@ -1,6 +1,5 @@
-﻿namespace TauCode.Cqrs.Abstractions
+﻿namespace TauCode.Cqrs;
+
+public interface IQuery
 {
-    public interface IQuery
-    {
-    }
 }
