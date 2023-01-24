@@ -1,9 +1,8 @@
-﻿namespace TauCode.Cqrs.Abstractions
-{
-    public interface ICommand<TResult> : ICommand
-    {
-        void SetResult(TResult result);
+﻿namespace TauCode.Cqrs;
 
-        TResult GetResult();
-    }
+public interface ICommand<TResult> : ICommand
+{
+    void SetResult(TResult result);
+
+    TResult GetResult();
 }
