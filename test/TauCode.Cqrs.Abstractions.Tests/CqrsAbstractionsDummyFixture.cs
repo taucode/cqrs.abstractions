@@ -2,6 +2,7 @@
 
 namespace TauCode.Cqrs.Abstractions.Tests;
 
+// todo: rename to 'DummyFixture'
 [TestFixture]
 public class CqrsAbstractionsDummyFixture
 {
