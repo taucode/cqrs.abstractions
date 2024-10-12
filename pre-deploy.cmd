@@ -1,9 +1,9 @@
 dotnet restore
 
-dotnet build TauCode.Extensions.sln -c Debug
-dotnet build TauCode.Extensions.sln -c Release
+dotnet build TauCode.Cqrs.Abstractions.sln -c Debug
+dotnet build TauCode.Cqrs.Abstractions.sln -c Release
 
-dotnet test TauCode.Extensions.sln -c Debug
-dotnet test TauCode.Extensions.sln -c Release
+dotnet test TauCode.Cqrs.Abstractions.sln -c Debug
+dotnet test TauCode.Cqrs.Abstractions.sln -c Release
 
-nuget pack nuget\TauCode.Extensions.nuspec
+nuget pack nuget\TauCode.Cqrs.Abstractions.nuspec
