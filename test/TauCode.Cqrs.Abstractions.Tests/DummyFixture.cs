@@ -2,12 +2,11 @@
 
 namespace TauCode.Cqrs.Abstractions.Tests;
 
-// todo: rename to 'DummyFixture'
 [TestFixture]
-public class CqrsAbstractionsDummyFixture
+public class DummyFixture
 {
     [Test]
-    public void CqrsAbstractionsDummyTest()
+    public void DummyTest()
     {
         // Arrange
 
