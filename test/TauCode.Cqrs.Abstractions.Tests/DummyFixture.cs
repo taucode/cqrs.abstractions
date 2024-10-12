@@ -3,10 +3,10 @@
 namespace TauCode.Cqrs.Abstractions.Tests;
 
 [TestFixture]
-public class CqrsAbstractionsDummyFixture
+public class DummyFixture
 {
     [Test]
-    public void CqrsAbstractionsDummyTest()
+    public void DummyTest()
     {
         // Arrange
 
