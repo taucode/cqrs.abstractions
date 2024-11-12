@@ -1,3 +1,7 @@
+2024-11-12
+==========
+    1. Preparing a huge refactoring (code name Cqrs2).
+
 2024-10-12
 ==========
     1. Resurrection - 2024.
